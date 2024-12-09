@@ -1,0 +1,13 @@
+@media (max-width:800px) {
+    #mobile-grid{
+        display:grid;
+        grid-template-columns: 1% 1fr 1%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: 
+        ". header ."
+        ". nav ."
+        ". main ."
+        ". sidebar ."
+        ". footer .";
+    }
+}

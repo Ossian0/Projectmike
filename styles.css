@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 
 :root{
     --primary-color:#2E4053; 
@@ -56,6 +58,7 @@ body {
     background-color: var(--background-color);
     padding: 10px;
     color:var(--text-color);
+    height: 400;
 }
 
 .footer {
